@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psalm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://getpsalm.org/schema/config" errorLevel="3" resolveFromConfigFile="true" allowStringToStandInForClass="true" runTaintAnalysis="true" hideExternalErrors="true" xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd">
+    <projectFiles>
+        <directory name="examples/"/>
+    </projectFiles>
+    <!--
+    <fileExtensions>
+        <extension name="php" />
+        <extension name="any" scanner="src/AnyScanner.php" checker="src/AnyAnalyzer.php" />
+    </fileExtensions>
+    -->
+    <plugins>
+        <pluginClass class="Olly\Psalm6788\Plugin"/>
+    </plugins>
+</psalm>

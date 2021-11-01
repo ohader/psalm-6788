@@ -1,0 +1,21 @@
+{
+    "name": "olly/psalm-6788",
+    "autoload": {
+        "psr-4": {
+            "Olly\\Psalm6788\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oliver Hader",
+            "email": "oliver@typo3.org"
+        }
+    ],
+    "require": {
+        "ext-simplexml": "*",
+        "vimeo/psalm": "dev-master"
+    },
+    "scripts": {
+        "psalm": "psalm -c psalm.xml --no-cache"
+    }
+}
